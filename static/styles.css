@@ -1,0 +1,56 @@
+body {
+	background-color: black;
+	text-align: center;
+}
+.navbar {
+	padding: 20px;
+}
+.navbar-brand {
+	font-size: 2rem;
+}
+.homepage {
+	padding: 4% 5% 0;
+	text-align: center;
+}
+.hmpg-img {
+	width: 60%;
+}
+
+.btn {
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+	width: 23%;
+}
+
+.block2 {
+	background-color: white;
+	border-radius: 20px;
+	padding: 5% 0;
+}
+
+h1 {
+	margin-bottom: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+    color: white;
+}
+
+.res-img {
+    width: 20%;
+}
+
+/*.border-around {*/
+/*	border: 5px solid whitesmoke;*/
+/*}*/
+
+/*.inl-blk {*/
+/*	display: inline-block;*/
+/*	padding: 20px;*/
+/*	width: auto;*/
+/*}*/

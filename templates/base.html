@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<section class="homepage">
+	<div class="container-fluid">
+	  <div class="row">
+
+		<div class="col-lg-6">
+		  <!-- <span><i class="icon fas fa-check-square"></i></span> -->
+		  <<img class="hmpg-img" src="../static/fire-fighter.jpg" alt="fire-fighter">
+		</div>
+
+		<div class="col-lg-6 block2">
+		  <!-- <span><i class="fas fa-cog"></i></span> -->
+		  <h1>Choose mode of detection:</h1>
+		  <!-- <button class="btn btn-dark btn-lg" type="button" name="button">Webcam</button> -->
+		  <a href="stream"><button class="btn btn-dark btn-lg" type="button" name="button">Webcam</button></a>
+		  <a href="picture"><button class="btn btn-dark btn-lg" type="button" name="button">Images</button></a>
+{#		  <a href="video"><button class="btn btn-dark btn-lg" type="button" name="button">Video</button></a>#}
+		</div>
+
+	  </div><!--row-->
+	</div><!--container-fluid-->
+</section>
+
+{% endblock %}

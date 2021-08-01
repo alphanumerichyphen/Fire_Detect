@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="inl-blk border-around">
+    <img class="res-img" src="../static/pic.jpg" alt="image" width="80%">
+    <br>
+    <p>Upload an image to see Fire detection</p>
+    <div class="upload-form">
+      <form action = "/uploader" method = "POST"
+        enctype = "multipart/form-data">
+        <input type = "file" name = "file" />
+        <input type = "submit"/>
+      </form>
+    </div>
+</div>
+
+{% endblock %}
